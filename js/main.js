@@ -85,21 +85,28 @@ document.getElementById("texto").innerHTML = soma(10,24);
 
 // console.log(carro.completo());
 
-function eventoClique() {
-    // alert("acionou um evento de clique");
-    document.body.style.backgroundColor = "yellow";
-}
+// function eventoClique() {
+//     // alert("acionou um evento de clique");
+//     document.body.style.backgroundColor = "yellow";
+// }
 
-function eventoDblClick() {
-    alert("Evento de clique duplo");
-}
+// function eventoDblClick() {
+//     alert("Evento de clique duplo");
+// }
 
-function viraVermelho() {
-    let div = document.getElementById("teste"); 
-    div.style.backgroundColor = "red";
-}
+// function viraVermelho() {
+//     let div = document.getElementById("teste"); 
+//     div.style.backgroundColor = "red";
+// }
 
-function viraAzul() {
-    let div = document.getElementById("teste");
-    div.style.backgroundColor = "blue"
-}
+// function viraAzul() {
+//     let div = document.getElementById("teste");
+//     div.style.backgroundColor = "blue"
+// }
+
+const lista = [
+    "arroz", 
+    "feijão",
+    "macarrão",
+    "leite"
+    ];
