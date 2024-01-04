@@ -15,11 +15,13 @@
 <body>
     <h1>Aprendendo JavaScript</h1>
     <p id="texto"></p>
-    <p>
-        <script>
-            document.write("<u>Oi escrito com document.write</u>") //<u></u> para sublinhar;
-        </script>
-    </p>
+
+    <button ondblclick="eventoDblClick()">Clique aqui!</button> <br><br>
+
+    <div id="teste" onmouseout="viraAzul()" onmouseover="viraVermelho()"
+        style=" margin: auto auto; width: 80%; height: 200px; background-color: blue;"></div>
+
+    <input onfocus="alert('Campo focado')" id="campoTexto" style="padding: 80px; font-size: 40px;" type="text" placeholder="Digite alguma coisa">
     <script src="./js/main.js"></script>
 </body>
 
