@@ -104,9 +104,96 @@ document.getElementById("texto").innerHTML = soma(10,24);
 //     div.style.backgroundColor = "blue"
 // }
 
-const lista = [
-    "arroz", 
-    "feijão",
-    "macarrão",
-    "leite"
-    ];
+// const lista = [
+//     "arroz", 
+//     "feijão",
+//     "macarrão",
+//     "leite"
+//     ];
+
+// var interruptor = "on";
+// if (interruptor == "on"){
+//     alert("A lâmpada está ligada!");
+// } else {
+//     alert("A lâmpada está desligada!");
+// } 
+
+// var hora = new Date().getHours();
+
+// if (hora < 12) {
+//     alert("bom dia");
+// } else if (hora < 18) {
+//     alert('boa tarde!');
+// } else {
+//     alert("Boa noite");
+// }
+
+// function verificar() {
+//     let nome = document.getElementById('nome').Value;
+
+//     if(nome == "" || nome == null) {
+//         let p = document.getElementById("teste")
+//         p.innerHTML = "O campo não pode ser vazio";
+//         p.style.color = "red";
+
+//     } else {
+//         let p = document.getElementById("teste")
+//         p.innerHTML = "Parabéns! Tudo certo";
+//         p.style.color = "green";
+//     }
+// }
+/*
+switch (expressao) {
+    case valor1:
+      // código a ser executado se expressao for igual a valor1
+      break;
+    case valor2:
+      // código a ser executado se expressao for igual a valor2
+      break;
+    // ...
+    default:
+      // código a ser executado se nenhum dos casos anteriores for correspondido
+  }
+  
+
+  let diaDaSemana = 3;
+let nomeDoDia;
+
+switch (diaDaSemana) {
+  case 1:
+    nomeDoDia = "Segunda-feira";
+    break;
+  case 2:
+    nomeDoDia = "Terça-feira";
+    break;
+  case 3:
+    nomeDoDia = "Quarta-feira";
+    break;
+  case 4:
+    nomeDoDia = "Quinta-feira";
+    break;
+  case 5:
+    nomeDoDia = "Sexta-feira";
+    break;
+  case 6:
+    nomeDoDia = "Sábado";
+    break;
+  case 7:
+    nomeDoDia = "Domingo";
+    break;
+  default:
+    nomeDoDia = "Dia inválido";
+}
+
+console.log("Hoje é " + nomeDoDia);
+*/
+
+// for (let i = 0; i < 5; i++) {
+//     console.log("O valor de i é: " + i);
+//   }
+  
+for (let i=1950; i <= 2024; i++) {
+    document.getElementById("ano").innerHTML += "<option value='" + i + "'>" + i + "</option>";
+}
+  
+
